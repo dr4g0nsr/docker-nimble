@@ -11,14 +11,14 @@ Usage
 From Docker registry:
 
 ```
-docker pull rjrivero/nimble
+docker pull dr4g0nsr/nimble
 ```
 
 Or build yourself:
 
 ```
-git clone https://github.com/rjrivero/docker-nimble.git
-docker build --rm -t rjrivero/nimble docker-nimble
+git clone https://github.com/dr4g0nsr/docker-nimble.git
+docker build --rm -t dr4g0nsr/nimble docker-nimble
 ```
 
 Running the image:
@@ -28,7 +28,7 @@ docker run --rm -p 8081:8081 -p 1935:1935 \
     -h instance-hostname \
     -e WMSPANEL_USER=your@user.name \
     -e WMSPANEL_PASS=your_password  \
-    --name nimble rjrivero/nimble
+    --name nimble dr4g0nsr/nimble
 ```
 
 Configuration
